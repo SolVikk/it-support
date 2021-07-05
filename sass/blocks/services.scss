@@ -1,0 +1,44 @@
+.services__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.services__link {
+    width: 255px;
+    height: 100%;
+    text-decoration: none;
+
+
+}
+
+.services__block {
+    margin-top: 5px;
+
+    width: 255px;
+    height: 275px;
+
+    &:hover {
+            box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+        }
+
+}
+
+.services__img {
+    width: 255px;
+    height: 190px;
+}
+
+
+
+.services__subtitle {
+
+    text-align: center;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+
+    text-transform: uppercase;
+}

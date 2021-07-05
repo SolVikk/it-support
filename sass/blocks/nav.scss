@@ -1,0 +1,35 @@
+.nav {
+    margin-top: 5px;
+    min-height: 60px;
+
+    background: $blue-gradient;
+}
+
+.nav__list {
+    margin: 0;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    line-height: 60px;
+}
+
+.nav__item {
+    list-style-type: none;
+    margin-left: 20px;
+
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+    transition: .2s linear;
+
+    &:hover {
+        color: black;
+    }
+}

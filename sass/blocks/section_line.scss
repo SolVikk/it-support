@@ -1,0 +1,17 @@
+.section_line {
+    margin-top: 10px;
+    min-height: 60px;
+
+    background: $blue-gradient;
+}
+
+.section_line__title {
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+
+    font-size: 27px;
+    font-weight: 700;
+
+    color: white;
+}

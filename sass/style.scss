@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import "vars";
+
+
+/* Default styles */
+
+body {
+    margin: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: 1rem;
+    line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1065px;
+    margin: 0 auto;
+}
+
+
+/* Blocks */
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/intro";
+@import "blocks/section_line";
+@import "blocks/services";
+@import "blocks/clients";
+@import "blocks/footer";

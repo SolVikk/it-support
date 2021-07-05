@@ -1,0 +1,48 @@
+.header {
+    padding: 2% 0;
+
+    min-height: 100px;
+    background: $blue-gradient;
+
+
+
+}
+
+.header__contacts {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+
+
+}
+
+.header__block {
+    position: relative;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.header__icon {
+    position: absolute;
+    left: -25px;
+    top: 13px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+    fill: #494b56;
+}
+
+.header__text {
+    color: white;
+    text-transform: uppercase;
+    &--bold {
+        color: white;
+        font-weight: 700;
+    }
+}
